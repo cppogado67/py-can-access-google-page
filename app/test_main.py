@@ -11,6 +11,7 @@ from app.main import can_access_google_page
         (True, True, "Accessible"),
         (False, True, "Not accessible"),
         (True, False, "Not accessible"),
+        (False, False, "Not accessible"),
     ],
 )
 def test_can_access_google_page(
